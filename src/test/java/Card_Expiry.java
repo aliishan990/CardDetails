@@ -9,7 +9,7 @@ public class Card_Expiry {
 
     @Test
     public void card_inValid_Expiry(){
-        System.out.println("Test case fail");
+        System.out.println("Test case pause");
     }
 
 }
