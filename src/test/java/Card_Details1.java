@@ -12,4 +12,8 @@ public class Card_Details1 {
         System.out.println("Test case fail");
     }
 
+    @Test
+    public void card_cvv_Details(){
+        System.out.println("Test case passed");
+    }
 }
