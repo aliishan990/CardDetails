@@ -7,6 +7,9 @@ public class Card_Expiry {
         System.out.println("Test case pass");
     }
 
-    
+    @Test
+    public void card_inValid_Expiry(){
+        System.out.println("Test case fail");
+    }
 
 }
