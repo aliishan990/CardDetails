@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample_2">
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <include name="group1">-->
+<!--            </include>-->
+<!--        </run>-->
+<!--    </groups>-->
+    <test name="Card details">
+        <parameter name="Fullname" value="Ishan Ali">
+        </parameter>
+        <classes>
+            <class name="Card_Details1Test"/>
+            <class name="Card_Details2"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Card Expiry details">
+        <classes>
+            <class name="Card_Expiry"/>
+            <class name="Card_Details2"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

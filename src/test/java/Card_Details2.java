@@ -1,15 +1,16 @@
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Card_Details2 {
 
     @Test
     public void card_Valid_Details(){
-        System.out.println("Test case pass");
+        System.out.println("Test case pass"+Thread.currentThread().getId());
     }
 
-    @Test
+    @BeforeTest
     public void card_inValid_Details(){
-        System.out.println("Test case fail");
+        System.out.println("Am Execute before test");
     }
 
     @Test
